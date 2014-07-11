@@ -1,0 +1,70 @@
+﻿html, body {   
+    height: 100%;    
+    background-color: #232B2B;
+}
+
+ .body-content {
+     position: relative; 
+     top: 35%;
+    
+ }
+
+ .inner-body-content{
+     position: relative;
+     top: 50%;
+     -webkit-transform: translateY(-50%);
+     -ms-transform: translateY(-50%);
+     transform: translateY(-50%);
+ }
+
+.banner {
+    height: 3px;
+    width: 100%;
+    background-color: #DC3D24;
+}
+
+.image {
+    width: 175px;
+    height: 175px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    overflow:hidden;
+    background: url("img/image.jpg") no-repeat center ;
+} 
+.image:hover{
+    width:177px;
+    height: 177px;
+    box-shadow: 1px 1px 10px 1px black;
+    
+}
+.center {
+    text-align: center;
+}
+.quote {
+    font-size: 2em;
+    color: #E3AE57;
+}
+
+.socialLink{
+    font-size: 2em;
+    color: #E3AE57;
+    padding: 0px 10px 0px 10px;
+}
+
+.socialLink:hover {
+    text-decoration: none;
+    color: #DC3D24;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+/*
+    #DC3D24 - Orange color
+    #232B2B - Gray color
+    #E3AE57 - Yellow color
+    */
