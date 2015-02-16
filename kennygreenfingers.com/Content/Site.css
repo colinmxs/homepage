@@ -60,10 +60,9 @@ a.bottom-nav-link:hover {
     -webkit-border-radius: 150px;
     -moz-border-radius: 150px;
     border-radius: 150px;
-    background: url("img/image.jpg") no-repeat center ;
+    background: url("img/image.jpg") no-repeat center;
+    box-shadow: 1px 1px 10px 1px black;
 }
 
 .portrait:hover {
-    
-    box-shadow: 1px 1px 10px 1px black;
 }
