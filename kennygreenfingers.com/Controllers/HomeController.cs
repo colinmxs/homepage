@@ -24,13 +24,17 @@ namespace kennygreenfingers.com.Controllers
                     {
                         var serializer = new JavaScriptSerializer();
                         var json = serializer.Deserialize<string[]>(await reader.ReadToEndAsync());
-
                         ViewBag.Tweet = json[0];
 
                     }
                 }
             }
             return View();
-        }                 
+        }
+
+        public async Task<ActionResult> Links()
+        {
+            return View();
+        } 
     }
 }
